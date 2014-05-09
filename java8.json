@@ -2,7 +2,7 @@
 	"homepage": "http://www.oracle.com/technetwork/java/javase/overview/index.html",
 	"version": "8u5",
 	"license": "http://www.oracle.com/technetwork/java/javase/terms/license/index.html",
-	"url": "http://github.com/dennislloydjr/scoop-bucket-devbox/bin/java8.ps1",
+	"url": "http://raw.github.com/dennislloydjr/scoop-bucket-devbox/master/bin/java8.ps1",
 	"installer": {
 		"file": "java8.ps1"
 	},
