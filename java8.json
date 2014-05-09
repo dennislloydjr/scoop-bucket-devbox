@@ -2,12 +2,11 @@
 	"homepage": "http://www.oracle.com/technetwork/java/javase/overview/index.html",
 	"version": "8u5",
 	"license": "http://www.oracle.com/technetwork/java/javase/terms/license/index.html",
-	"url": "file:///java8-install.exe",
-	"bin": ["bin\\java.exe", "bin\\javac.exe"],
+	"url": "http://github.com/dennislloydjr/scoop-bucket-devbox/bin/java8.ps1",
 	"installer": {
-		"file": "java-install.exe",
-		"args": "/s INSTALLDIR=\"$dir\""
+		"file": "java8.ps1"
 	},
+	"bin": ["bin\\java.exe", "bin\\javac.exe"],
 	"env_add_path": "bin",
 	"env_set": {
 		"JAVA_HOME": "$dir"
