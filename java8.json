@@ -4,7 +4,8 @@
 	"license": "http://www.oracle.com/technetwork/java/javase/terms/license/index.html",
 	"url": "http://raw.github.com/dennislloydjr/scoop-bucket-devbox/master/bin/java8.ps1",
 	"installer": {
-		"file": "java8.ps1"
+		"file": "java.ps1",
+		"args": ["8u5", "b13"]
 	},
 	"bin": ["bin\\java.exe", "bin\\javac.exe"],
 	"env_add_path": "bin",
