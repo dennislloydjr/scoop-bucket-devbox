@@ -5,11 +5,11 @@
 	"architecture": {
 		"64bit": {
 			"url": "http://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.17-winx64.zip",
-			"hash": "195c786baa4c61c449a7be21fd10c0d5"
+			"hash": "md5:195c786baa4c61c449a7be21fd10c0d5"
 		},
 		"32bit": {
 			"url": "http://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.17-win32.zip",
-			"hash": "af25ffc212fb5edfa25d8a776d181eb6"
+			"hash": "md5:af25ffc212fb5edfa25d8a776d181eb6"
 		}
 	},
 	"env_set": {
