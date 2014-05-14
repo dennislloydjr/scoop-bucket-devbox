@@ -12,6 +12,7 @@
 			"hash": "md5:af25ffc212fb5edfa25d8a776d181eb6"
 		}
 	},
+	"extract_dir": "mysql-5.6.17-winx64",
 	"env_set": {
 		"MYSQL_HOME": "$dir"
 	}
