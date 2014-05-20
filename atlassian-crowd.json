@@ -1,0 +1,10 @@
+{
+	"homepage": "https://www.atlassian.com/software/crowd/download",
+	"version": "2.7.2",
+	"license": "https://www.atlassian.com/end-user-agreement/",
+	"url": "http://downloads.atlassian.com/software/crowd/downloads/atlassian-crowd-2.7.2.zip",
+	"env_set": {
+		"CROWD_INSTALL": "$dir"
+	},
+	"checkver": "Crowd ([0-9\\.]+) - Standalone"
+}
