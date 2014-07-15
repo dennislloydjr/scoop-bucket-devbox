@@ -6,7 +6,6 @@
 	"env_set": {
 		"JIRA_INSTALL": "$dir"
 	},
-	"checkver": "jira\-([0-9\\.]+)\.zip",
 	"extract_dir": "atlassian-jira-6.3",
 	"notes": "On 64bit Windows, you must follow the workaround at https://confluence.atlassian.com/display/CONFKB/Problems+Installing+Confluence+as+a+Service+on+Windows+64bit"
 }
