@@ -1,0 +1,10 @@
+{
+	"homepage": "https://www.atlassian.com/software/stash/download",
+	"version": "2.12.3",
+	"license": "https://www.atlassian.com/end-user-agreement/",
+	"url": [
+		"http://downloads.atlassian.com/software/stash/downloads/atlassian-stash-2.12.3.zip",
+		"http://downloads.atlassian.com/software/stash/downloads/stash-backup-client-1.2.1.zip"
+	],
+	"bin": "bin\\grep.exe" 
+}
