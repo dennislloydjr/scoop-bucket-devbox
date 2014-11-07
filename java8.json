@@ -1,11 +1,11 @@
 {
 	"homepage": "http://www.oracle.com/technetwork/java/javase/overview/index.html",
-	"version": "8u5",
+	"version": "8u25",
 	"license": "http://www.oracle.com/technetwork/java/javase/terms/license/index.html",
 	"url": "http://raw.github.com/dennislloydjr/scoop-bucket-devbox/master/bin/java.ps1",
 	"installer": {
 		"file": "java.ps1",
-		"args": ["8u5", "b13"]
+		"args": ["8u25", "b18"]
 	},
 	"bin": ["bin\\java.exe", "bin\\javac.exe"],
 	"env_add_path": "bin",
