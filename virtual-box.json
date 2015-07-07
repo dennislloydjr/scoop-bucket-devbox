@@ -4,17 +4,17 @@
     "homepage": "https://www.virtualbox.org/",
 	"url": "http://download.virtualbox.org/virtualbox/4.3.8/VirtualBox-4.3.8-92456-Win.exe",
 	"hash": "f7cdf0b03e8ef7a44d5a19241b6b58628a11e8bcb86fd17376245822b832d8f4",
+	"bin": [],
+	"env_add_path": ".",
 	"post_install": "
 	  $VirtualBoxHome = (Join-Path (Get-DataPath) \"/VirtualBox\")
-	  mkdir $VirtualBoxHome > $null
+	  mkdir -Force $VirtualBoxHome > $null
 	  [Environment]::SetEnvironmentVariable(\"VBOX_USER_HOME\", $VirtualBoxHome, \"User\")
 	  $env:VBOX_USER_HOME = $VirtualBoxHome
 	  pushd $dir
 	  Start-Process -FilePath VirtualBox-4.3.8-92456-Win.exe -ArgumentList --silent, --extract, --path, $dir -wait
 	  Start-Process -FilePath msiexec -ArgumentList /i, VirtualBox-4.3.8-r92456-MultiArch_amd64.msi, /quiet, /qn, INSTALLDIR=$dir, /l*v, $dir/install.log, /norestart -wait
 	  popd
-	  shim $dir\\VirtualBox.exe false 'virtualbox'
-	  shim $dir\\VBoxManage.exe false 'vboxmanage'
-	  VBoxManage setproperty machinefolder \"$VirtualBoxHome/machines\"
+	  Start-Process -FilePath \"$dir/vboxmanage\" -ArgumentList \"setproperty\", \"machinefolder\", \"$VirtualBoxHome/machines\"
 	"
 }
