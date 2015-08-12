@@ -1,0 +1,16 @@
+{
+	"version": "5.0.0",
+	"license": "GPLv2",
+    "homepage": "https://www.virtualbox.org/",
+	"url": "http://download.virtualbox.org/virtualbox/5.0.0/VirtualBox-5.0.0-101573-Win.exe",
+	"hash": "0CA898EB23E20506A28BF84514536BA5455CC6A35234EA096245E42EE113E617",
+	"installer": {
+		"file": "VirtualBox-5.0.0-101573-Win.exe",
+		"args": "--silent --msiparams INSTALLDIR=$dir REBOOT=ReallySuppress"
+	},
+	"bin": [
+		"VirtualBox.exe",
+		"VBoxManage.exe",
+		"VBoxHeadless.exe"
+	]
+}
