@@ -1,0 +1,18 @@
+{
+	"version": "3.1.95",
+	"license": "commercial",
+    "homepage": "https://www.lastpass.com/",
+	"url": "https://lastpass.com/releases/lastpass_x64_3.1.95.exe",
+	"hash": "3DA6CBD3C212BDD95DA2F104DC6630D299B6114FE12614542B8C867EB573603F",
+	"depends": ["firefox", "chrome"],
+	"installer": {
+    	"file": "lastpass_x64_3.1.95.exe",
+    	"args":["-si",
+				" -userinstallie",
+				" -userinstallff",
+				" -userinstallchrome",
+				" -j",
+				" \"$dir\""
+			]
+  	}
+}
