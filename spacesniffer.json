@@ -1,0 +1,10 @@
+{
+	"version": "1.2.0.2",
+	"license": "http://www.uderzo.it/main_products/space_sniffer/donate.html",
+    "homepage": "http://www.uderzo.it/main_products/space_sniffer/index.html",
+	"url": "http://www.uderzo.it/main_products/space_sniffer/files/spacesniffer_1_2_0_2.zip",
+	"hash": "sha1:54f048e93fca961c9943f51309e83b05d9a8ab27",
+	"bin": [
+		"spacesniffer.exe"
+	]
+}
