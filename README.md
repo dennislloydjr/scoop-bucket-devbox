@@ -6,4 +6,6 @@ This is a bucket for the scoop command-line installer. You can get scoop from ht
 
 ##Use##
 Once you have scoop installed, you can add this bucket using this scoop command in Powershell:
+```
 scoop bucket add devbox https://github.com/dennislloydjr/scoop-bucket-devbox.git
+```
